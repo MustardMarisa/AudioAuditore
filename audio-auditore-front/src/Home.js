@@ -3,22 +3,29 @@ import React, { Component } from "react";
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 
-const MySwal = withReactContent(Swal)
+const MySwal = withReactContent(Swal);
 
 
 class Home extends Component {
 
     alerta() {
         MySwal.fire({
-            title: <p>Hello World</p>,
-            footer: 'Copyright 2018',
-            onOpen: () => {
-                // `MySwal` is a subclass of `Swal`
-                //   with all the same instance & static methods
-                MySwal.clickConfirm()
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.value) {
+                Swal.fire(
+                    'Deleted!',
+                    'Your file has been deleted.',
+                    'success'
+                )
             }
-        }).then(() => {
-            return MySwal.fire(<p>Shorthand works too</p>)
+            return result.value;
         })
     }
 
