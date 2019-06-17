@@ -4,3 +4,12 @@ create-react-app react_spa
 npm i react-router-dom
 3) instalamos axios
 npm i react-router-dom
+
+4) instalamos bulma
+npm install bulma
+(https://bulma.io/)
+(https://bulma.io/documentation/overview/start/)
+
+5) instalamos sweetalert2 y su contenido para react
+npm install sweetalert2 sweetalert2-react-content
+(https://github.com/sweetalert2/sweetalert2-react-content)
