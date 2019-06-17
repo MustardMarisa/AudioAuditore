@@ -1,0 +1,6 @@
+1) creamos el proyecto de front con
+create-react-app react_spa
+2) instalamos el modulo
+npm i react-router-dom
+3) instalamos axios
+npm i react-router-dom

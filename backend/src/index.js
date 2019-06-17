@@ -5,7 +5,7 @@ const path = require('path');//modulo de path, incluido en node.js, ayuda a enco
 const { mongoose } = require('./database');//usamos del archivo database, el modulo de mongoose
 
 // Settings, seccion de configuracion
-app.set('port', process.env.PORT || 3000);//Toma el puerto que asigne la nube, O toma por defecto el puerto 3000 
+app.set('port', process.env.PORT || 3777);//Toma el puerto que asigne la nube, O toma por defecto el puerto 3000 
 
 // Middlewares, acciones que se ejecutan con cada peticion
 app.use(morgan('dev'));//con el formato "dev" que permite ver las peticiones para desarrollo:  GET / 404 4.415 ms - 139; GET - tipo de peticion; / - ruta; 404 - respuesta; ms - tiempo de respuesta; 139 - peso de la respuesta en bytes
