@@ -19,9 +19,10 @@ class Main extends Component {
         return (
             <div className="App">
                 <NavBar />
-                <Register />
-
-
+                <div className="container">
+                    <Register />
+                </div>
+                
                 <HashRouter>
                     <div>
                         <h1>Simple SPA</h1>

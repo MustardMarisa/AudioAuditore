@@ -36,3 +36,11 @@ ul.header li a {
 .active {
     background-color: rgb(79, 176, 206);
 }
+.customCard{
+    height: 300px;
+    width: 300px;
+}
+.customContainer{
+    display: flex;
+    flex-direction: row;
+}

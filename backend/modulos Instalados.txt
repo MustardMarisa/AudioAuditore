@@ -69,6 +69,9 @@ Modulo de morgan, usado como middleware, permite ver las peticiones HTTP
 5) npm install mongoose
 Modulo mongoose, permite conectarnos a la base de datos y definir los datos de la base de datos
 
+
+-npm install cors
+
 6) npm install webpack -D
 Modulo webpack, traduce el codigo js de react para poner en html*?
 

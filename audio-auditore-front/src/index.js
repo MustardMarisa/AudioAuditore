@@ -3,7 +3,10 @@ import ReactDOM from "react-dom";
 import Main from "./Main";
 import "./index.css";
 import "./animate.css";
-import 'bulma/css/bulma.css';
+
+//importamos bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 ReactDOM.render(
     <Main />,

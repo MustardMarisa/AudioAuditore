@@ -10,6 +10,14 @@ npm install bulma
 (https://bulma.io/)
 (https://bulma.io/documentation/overview/start/)
 
+
+_> reemplazamos bulma por
+npm install bootstrap jquery popper.js
+
+--bootstrap
+--jquery
+--popper
+
 5) instalamos sweetalert2 y su contenido para react
 npm install sweetalert2 sweetalert2-react-content
 (https://github.com/sweetalert2/sweetalert2-react-content)

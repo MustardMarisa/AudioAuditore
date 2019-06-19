@@ -34,7 +34,7 @@ class Home extends Component {
             <div>
                 <h2>HELLO</h2>
 
-                <button class="button animated shake" onClick={this.alerta}>click me</button>
+                <button className="button animated shake" onClick={this.alerta}>click me</button>
 
                 <p>Cras facilisis urna ornare ex volutpat, et
                 convallis erat elementum. Ut aliquam, ipsum vitae

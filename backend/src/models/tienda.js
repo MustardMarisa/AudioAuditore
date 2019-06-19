@@ -6,8 +6,8 @@ const TiendaSchema = new Schema({//definimos el esquema de los datos
     direccion: { type: String, required: true },
     productos:{
         type: [{
-            type:mongoose.Schema.Type.ObjectId,
-            ref: 'Product'
+            type:mongoose.Schema.Types.ObjectId,
+            ref: 'Producto'
         }]
     }
 });
